@@ -5,12 +5,13 @@ const Footer = () => {
     <>
     <footer className="footer p-10 bg-base-200 text-base-content">
         <aside>
-          <img src="../../../assets/logo/Group 2.png" alt="Logo-png" />
+          <img src="/src/assets/logo/Group 2.png" alt="Logo-png" />
           <p>
             DocHouse
             <br />
             Providing reliable health care services, since 1992.
           </p>
+          <button className="btn btn-outline decoration-[#F7A582]">Appointment</button>
         </aside>
         <nav>
           <h6 className="footer-title">Services</h6>
